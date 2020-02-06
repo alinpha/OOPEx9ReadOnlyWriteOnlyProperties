@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMAD.ClassLibs", "WMAD.ClassLibs.csproj", "{BE1ED5FE-449A-42A3-B9AF-E73C90FD158C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMAD.Console", "..\WMAD.Console\WMAD.Console.csproj", "{5D2FF43F-603F-4138-B27A-ACEB607C5350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMAD.ClassLibs.Tests", "..\WMAD.ClassLibs.Tests\WMAD.ClassLibs.Tests.csproj", "{822D95BA-8D61-4345-9937-E023F447E5E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BE1ED5FE-449A-42A3-B9AF-E73C90FD158C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE1ED5FE-449A-42A3-B9AF-E73C90FD158C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE1ED5FE-449A-42A3-B9AF-E73C90FD158C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2FF43F-603F-4138-B27A-ACEB607C5350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2FF43F-603F-4138-B27A-ACEB607C5350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2FF43F-603F-4138-B27A-ACEB607C5350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2FF43F-603F-4138-B27A-ACEB607C5350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822D95BA-8D61-4345-9937-E023F447E5E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822D95BA-8D61-4345-9937-E023F447E5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822D95BA-8D61-4345-9937-E023F447E5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822D95BA-8D61-4345-9937-E023F447E5E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

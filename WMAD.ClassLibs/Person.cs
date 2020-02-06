@@ -10,7 +10,7 @@ namespace WMAD.ClassLibs
     {
         private string company = "NBCC Moncton";
         private DateTime dateOfBirth;
-        private bool aidOff;
+        private bool laidOff;
 
         /// <summary>
         /// write only prop
@@ -46,10 +46,13 @@ namespace WMAD.ClassLibs
         {
             set
             {
-                LaidOff = value;
+                laidOff = value;
             }
         }
 
+        /// <summary>
+        /// read only
+        /// </summary>
         public int Age
         {
             get
