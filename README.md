@@ -1,0 +1,1 @@
+# OOPEx9ReadOnlyWriteOnlyProperties
