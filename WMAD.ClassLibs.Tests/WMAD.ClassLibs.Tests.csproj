@@ -47,10 +47,13 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PersonTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MailCarrierTest.cs" />
+    <Compile Include="MyColorTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

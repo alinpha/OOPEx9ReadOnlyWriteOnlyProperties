@@ -8,7 +8,7 @@ namespace WMAD.ClassLibs
 {
     public class Person
     {
-        private string company = "NBCC Moncton";
+        //private string company = "NBCC Moncton";
         private DateTime dateOfBirth;
         private bool laidOff;
 
@@ -26,18 +26,12 @@ namespace WMAD.ClassLibs
         /// <summary>
         /// auto prop no unit test required.
         /// </summary>
-        public string Name { get; set; }
+        public string Name { get; set; } = "Aline Vetrov";
 
         /// <summary>
         /// read only prop.
         /// </summary>
-        public string Company
-        {
-            get
-            {
-                return company;
-            }
-        }
+        public string Company { get; } = "NBCC Moncton";
 
         /// <summary>
         /// write only

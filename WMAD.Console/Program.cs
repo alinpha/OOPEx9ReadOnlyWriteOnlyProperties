@@ -19,7 +19,13 @@ namespace WMAD.Console
             string str = $"{p.Name} {p.Company} {p.Age}";
 
             System.Console.WriteLine(str);
+
+
+            System.Console.WriteLine(p.Name.Replace(" ",".").ToLower());
+
             System.Console.ReadLine();
+
+            
         }
     }
 }
