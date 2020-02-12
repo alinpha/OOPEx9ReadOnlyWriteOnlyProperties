@@ -9,9 +9,9 @@ namespace WMAD.ClassLibs
 {
     public class MyColor
     {
-        const int DEFAULT = 128;
-        const int MAX = 256;
-        const int MIN = 0;
+        public const int DEFAULT = 128;
+        public const int MAX = 256;
+        public const int MIN = 0;
 
         private int blue;
         private int green;

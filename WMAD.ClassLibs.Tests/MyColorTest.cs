@@ -13,7 +13,7 @@ namespace WMAD.ClassLibs.Tests
         public void Blue_Positive_Set_Min()
         {
             MyColor target = new MyColor();
-            int expected = 0;
+            int expected = MyColor.MIN;
             target.Blue = expected;
             Assert.AreEqual(expected,target.Blue);
         }
@@ -22,7 +22,7 @@ namespace WMAD.ClassLibs.Tests
         public void Blue_Positive_Set_Max()
         {
             MyColor target = new MyColor();
-            int expected = 256;
+            int expected = MyColor.MAX;
             target.Blue = expected;
             Assert.AreEqual(expected, target.Blue);
         }
@@ -31,8 +31,8 @@ namespace WMAD.ClassLibs.Tests
         public void Blue_Positive_Set_MinOutOfRange()
         {
             MyColor target = new MyColor();
-            int expected = 128;
-            target.Blue = -1;
+            int expected = MyColor.DEFAULT;
+            target.Blue = MyColor.MIN - 1;
             Assert.AreEqual(expected, target.Blue);
         }
 
@@ -40,8 +40,8 @@ namespace WMAD.ClassLibs.Tests
         public void Blue_Positive_Set_MaxOutOfRange()
         {
             MyColor target = new MyColor();
-            int expected = 128;
-            target.Blue = 257;
+            int expected = MyColor.DEFAULT;
+            target.Blue = MyColor.MAX + 1;
             Assert.AreEqual(expected, target.Blue);
         }
 
@@ -52,7 +52,7 @@ namespace WMAD.ClassLibs.Tests
         public void Green_Positive_Set_Min()
         {
             MyColor target = new MyColor();
-            int expected = 0;
+            int expected = MyColor.DEFAULT;
             target.Green = expected;
             Assert.AreEqual(expected, target.Green);
         }
@@ -61,7 +61,7 @@ namespace WMAD.ClassLibs.Tests
         public void Green_Positive_Set_Max()
         {
             MyColor target = new MyColor();
-            int expected = 256;
+            int expected = MyColor.MAX;
             target.Green = expected;
             Assert.AreEqual(expected, target.Green);
         }
@@ -70,8 +70,8 @@ namespace WMAD.ClassLibs.Tests
         public void Green_Positive_Set_MinOutOfRange()
         {
             MyColor target = new MyColor();
-            int expected = 128;
-            target.Green = -1;
+            int expected = MyColor.DEFAULT;
+            target.Green = MyColor.MIN - 1;
             Assert.AreEqual(expected, target.Green);
         }
 
@@ -79,8 +79,8 @@ namespace WMAD.ClassLibs.Tests
         public void Green_Positive_Set_MaxOutOfRange()
         {
             MyColor target = new MyColor();
-            int expected = 128;
-            target.Green = 257;
+            int expected = MyColor.DEFAULT;
+            target.Green = MyColor.MAX + 1;
             Assert.AreEqual(expected, target.Green);
         }
         #endregion
